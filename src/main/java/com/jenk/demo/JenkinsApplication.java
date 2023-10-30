@@ -14,8 +14,8 @@ public class JenkinsApplication {
 	private static final Logger logger = LoggerFactory.getLogger(JenkinsApplication.class);
 
 	@PostConstruct
-	public void init() {
-		logger.info("Application Started Again Again ... ");
+	public  init() {
+		logger.info("Application Started Again Again ..... ");
 	}
 	
 	public static void main(String[] args) {
